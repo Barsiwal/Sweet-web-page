@@ -1,0 +1,59 @@
+@import "_sidebar.scss";
+
+.sidebar{
+	left:-275px;
+	color:#FCFCFC;
+	background-color:#F24F23;
+	transfrom:translate3d(0,0,0);
+	li,p,div{
+	cursor:pointer;
+	}
+
+	li:hover
+	{
+			box-shadow:inset 0 0 5px -3px #656565;
+	-webkit-box-shadow:inset 0 0 3px #656565;
+	}
+	.hide1,.hide2{
+		overflow:hidden;
+		height:52px;
+		transition:all .5s ease;
+	}
+}
+
+	.hide1.r1{
+		height:148px;
+	}
+		.hide2.r2{
+		height:124px;
+	}
+.div.up{
+	height:100%;
+	width:100%;
+}
+
+
+
+
+.sidebar.slide_left{
+	
+	left:0;
+	
+}
+.container.slide_right{
+	
+	
+}
+.shadow{
+	box-shadow:inset 0 0 5px -3px #656565;
+	-webkit-box-shadow:inset 0 0 3px #656565;
+}
+.hide1.retract1{
+	height:148px;
+	
+}
+.hide1.retract1{
+	height:248px;
+	
+}
+
