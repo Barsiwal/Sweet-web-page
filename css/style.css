@@ -324,9 +324,12 @@ body {
   transfrom: translate3d(0, 0, 0); }
   .sidebar li, .sidebar p, .sidebar div {
     cursor: pointer; }
+  .sidebar li:last-child p:nth-child(2), .sidebar li:last-child p:nth-child(3) {
+    text-align: left;
+    text-indent: 21px; }
   .sidebar li:hover {
     box-shadow: inset 0 0 5px -3px #656565;
-    -webkit-box-shadow: inset 0 0 3px #656565; }
+    -webkit-box-shadow: inset 0 0 3px rgba(101, 101, 101, 0.62); }
   .sidebar .hide1, .sidebar .hide2 {
     overflow: hidden;
     height: 52px;

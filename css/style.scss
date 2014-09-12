@@ -8,11 +8,17 @@
 	li,p,div{
 	cursor:pointer;
 	}
+    li:last-child{
+        p:nth-child(2),p:nth-child(3){
+            text-align: left;
+            text-indent: 21px;
+        }        
+    }
 
 	li:hover
 	{
-			box-shadow:inset 0 0 5px -3px #656565;
-	-webkit-box-shadow:inset 0 0 3px #656565;
+        box-shadow:inset 0 0 5px -3px #656565;
+	-webkit-box-shadow:inset 0 0 3px rgba(101, 101, 101, 0.62);
 	}
 	.hide1,.hide2{
 		overflow:hidden;
