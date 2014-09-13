@@ -24,7 +24,9 @@ $("document").ready(function () {
 			$("#sidebar nav ul > li:nth-child(2)").removeClass('r1');
 		}
 	});
-
+    $(".media").click(function() {
+        $("this").toggleClass("change");
+    });
 
 
 });

@@ -1,10 +1,10 @@
 @font-face {
 	font-family: 'icomoon';
-	src:url('../fonts/icomoon.eot?-dhbk4w');
-	src:url('../fonts/icomoon.eot?#iefix-dhbk4w') format('embedded-opentype'),
-		url('../fonts/icomoon.woff?-dhbk4w') format('woff'),
-		url('../fonts/icomoon.ttf?-dhbk4w') format('truetype'),
-		url('../fonts/icomoon.svg?-dhbk4w#icomoon') format('svg');
+	src:url('../fonts/icomoon.eot?zhtrtd');
+	src:url('../fonts/icomoon.eot?#iefixzhtrtd') format('embedded-opentype'),
+		url('../fonts/icomoon.woff?zhtrtd') format('woff'),
+		url('../fonts/icomoon.ttf?zhtrtd') format('truetype'),
+		url('../fonts/icomoon.svg?zhtrtd#icomoon') format('svg');
 	font-weight: normal;
 	font-style: normal;
 }
@@ -122,9 +122,7 @@ header{
 		display:flex;
 		flex-direction:row;
 		padding-top:1px;
-		@media screen and (max-width:600px){
-		flex-direction:column;	
-		}
+
 
 		li{
 			flex-grow:1;
@@ -141,7 +139,7 @@ header{
 
 		}
 			li:hover{
-				@media screen and (min-width:960px){
+				@media screen and (min-device-width:960px){
 				flex-grow:3;
 				}
 				}
@@ -355,7 +353,6 @@ footer{
 		font-size:.8em;
 		}
 	}
-
 
 
 

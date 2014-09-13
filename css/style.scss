@@ -1,4 +1,7 @@
 @import "_sidebar.scss";
+.media{
+display: none;
+}
 
 .sidebar{
 	left:-275px;
@@ -61,5 +64,89 @@
 .hide1.retract1{
 	height:248px;
 	
+}
+
+
+@media screen and (max-device-width:1000px){
+    section{
+        div:last-child{
+            display: none;
+        }
+        div[class^="p"]{
+            flex-direction: column;
+            div.left,div.right{
+                width:100%;
+                h3,p{
+                    text-align: center;
+                }
+            }
+        }
+        div.p2,div.p4{
+            flex-direction: column-reverse;
+        }       
+        
+    }  
+    
+}
+@media screen and (max-device-width:1000px) and (min-device-width:600px){
+    .sidebar{
+        width:208px;
+    }
+    
+}
+
+@media screen and (max-device-width:600px){
+    header{
+        nav{
+            position:relative;
+            z-index: 2;
+            .main_nav{
+                flex-direction:column;                
+            }
+            height:96px;
+            overflow: hidden;
+            transition:all .5s ease;
+            
+        }
+        nav:hover{
+            height:435px;
+                .media:before{
+            color:#67a1ff;
+                }
+        }
+    }
+    
+    .sidebar{
+        width:35%;
+        .media.change:before{
+       color:#67a1ff;  
+       content: "\e60b"; 
+        font-family: 'icomoon';
+        font-size:2.2em;
+    }
+        
+    }
+    .media{
+        display: block;
+        width:48px;
+        height: 48px;
+        border-radius: 5px;
+        position:absolute;
+        z-index: 10;
+        right:10%;
+        top:35px;
+        text-align: center;
+    }
+    .media:before{
+        content: "\e60a";
+        font-family: 'icomoon';
+        color:rgba(176, 176, 176, 1);
+    font-size:2.2em;
+        
+
+    }
+
+
+    
 }
 
