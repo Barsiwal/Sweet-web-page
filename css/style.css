@@ -395,7 +395,8 @@ body {
     header nav:hover .media:before {
       color: #67a1ff; }
   .sidebar {
-    width: 35%; }
+    width: 35%;
+    left: -35%; }
     .sidebar .media.change:before {
       color: #67a1ff;
       content: "\e60b";
