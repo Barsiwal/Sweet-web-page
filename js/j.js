@@ -28,5 +28,11 @@ $("document").ready(function () {
         $("this").toggleClass("change");
     });
 
+    window.onscroll = function () { 
+        if($(".sidebar").hasClass("slide_left"))
+        { 
+            window.scrollTo(0, 0);
+        }
+    };
 
 });
