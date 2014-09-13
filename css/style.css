@@ -371,6 +371,12 @@ body {
   section div.p2, section div.p4 {
     flex-direction: column-reverse; } }
 
+@media screen and (min-device-width: 1000px) {
+  .sidebar {
+    min-width: 270px; }
+  .container {
+    min-width: 1349px; } }
+
 @media screen and (max-device-width: 1000px) and (min-device-width: 600px) {
   .sidebar {
     width: 208px; } }
