@@ -64,10 +64,9 @@ header {
   flex-direction: column; }
   header h1.heading {
     font-family: 'Josefin Sans', sans-serif;
-    text-shadow: 1px 1px 3px black;
     border-radius: 10px;
     font-weight: strong;
-    font-size: 5em;
+    font-size: 4em;
     display: inline;
     text-align: center;
     color: #74777B; }
@@ -130,8 +129,7 @@ section {
     color: #74777B;
     font-size: 4em;
     font-weight: normal;
-    margin: 70px 0px;
-    text-shadow: 1px 1px 3px black; }
+    margin: 70px 0px; }
   section div[class^="p"] {
     display: flex; }
   section .p1 .left, section .p2 .right, section .p3 .left, section .p4 .right, section .p5 .left {
